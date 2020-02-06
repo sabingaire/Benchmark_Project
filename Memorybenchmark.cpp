@@ -31,6 +31,13 @@ void Memory::read_memory(){
 
 int main{
     time_t initial_time, final_time;
+    initial_time =time(NULL);
+    Memory memory;
+    memory.read();
+    memory.write();
+    final_time=time(NULL);
+    cout<<"The time taken for memory operation is ";
+    cout<<final_time - initial_time<<endl;
     
     return 0;
     
