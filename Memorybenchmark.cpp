@@ -21,4 +21,12 @@ void Memory::write_memory(){
         }
     }
 
+void Memory::read_memory(){
+    int 32_t temp;
+    long long i=0;
+    for (i=0;i<5000000000;i++){
+        temp=array1[i]
+    }
+}
+
 
