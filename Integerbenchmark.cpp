@@ -23,3 +23,11 @@ void int_multiplication( int a =23 ,int b=45){
         i++;
     }
 }
+
+void int_division( int a=100, int b =25){
+    long long int i=0;
+    while(i<20000000000){
+        a/=b;
+        i++;
+    }
+}
