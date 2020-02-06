@@ -33,5 +33,11 @@ void int_division( int a=100, int b =25){
 }
 
 int main(){
+    time_t intial_time , final_time;
+    intial_time= time(NULL);
+    int_addition();
+    int_multiplication();
+    int_division();
+    
     return 0;
 }
