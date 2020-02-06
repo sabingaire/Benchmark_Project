@@ -8,6 +8,11 @@ class Memory{
 private:
     int32_t array1[5000000000];
     
+    public:
+        void write_memory();
+        void read_memory();
+    }
 
+    
 
 
