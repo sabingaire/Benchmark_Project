@@ -5,10 +5,11 @@
 using namespace std;
 
 class Memory{
-private:
-    int32_t array1[5000000000];
-    
     public:
+    
+    int32_t array1[500000];
+    
+    
         void write_memory();
         void read_memory();
 };
@@ -16,17 +17,23 @@ private:
 void Memory::write_memory(){
         int32_t temp=3;
         long long i=0;
-        for (i=0;i<5000000000;i++){
-            array1[i]=temp;
+        long long j=0;
+        for (i=0;i<10000;i++){
+            for (j=0;j<500000;j++){
+            array1[j]=temp;
+        }
         }
     }
 
 void Memory::read_memory(){
     int32_t temp;
     long long i=0;
-    for (i=0;i<5000000000;i++){
-        temp=array1[i];
+    long long j=0;
+    for (i=0;i<10000;i++){
+        for (j=0;j<500000;j++){
+        temp=array1[j];
     }
+}
 }
 
 int main(){
