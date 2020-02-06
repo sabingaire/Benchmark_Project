@@ -31,3 +31,7 @@ void int_division( int a=100, int b =25){
         i++;
     }
 }
+
+int main(){
+    return 0;
+}
