@@ -3,6 +3,8 @@
 #include<ctime>
 using namespace std;
 
-void float_addition(int a, int b);
-void float_multiplication(int a, int b);
-void float_division(int a,int b);
+void float_addition(float a, float b);
+void float_multiplication(float a, float b);
+void float_division(float a,float b);
+
+
