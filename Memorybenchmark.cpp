@@ -13,6 +13,12 @@ private:
         void read_memory();
     }
 
-    
+void Memory::write_memory(){
+        int 32_t temp=3;
+        long long i=0;
+        for (i=0;i<5000000000;i++){
+            array1[i]=temp;
+        }
+    }
 
 
