@@ -14,3 +14,11 @@ void float_addition(float a=1.23e+4 , float b=12.34e+2){
         i++;
     }
 }
+
+void float_multiplication( float a =6.12 ,float b=3.23){
+    long long i=0;
+    while(i<50000000000){
+        a*=b;
+        i++;
+    }
+}
