@@ -7,7 +7,7 @@ using namespace std;
 class Memory{
     public:
     
-    int32_t array1[500000];
+    int32_t array1[500000];//I have used this and used nested loop cause my array could not hold large number
     
     
         void write_memory();
