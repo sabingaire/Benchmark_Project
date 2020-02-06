@@ -34,6 +34,12 @@ void float_division( float a=13.233, float b =4.55){
 int main(){
     time_t intial_time , final_time;
     intial_time= time(NULL);
+    float_addition();
+    float_multiplication();
+    float_division();
+    final_time=time(NULL);
+    cout<<"The total time taken for the float operation is ";
+    cout<<final_time - intial_time<<endl;
     
     
     return 0;
