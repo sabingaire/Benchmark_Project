@@ -14,3 +14,12 @@ void int_addition(int a=6 , int b=12){
         i++;
     }
 }
+
+
+void int_multiplication( int a =23 ,int b=45){
+    long long i=0;
+    while(i<50000000000){
+        a*=b;
+        i++;
+    }
+}
