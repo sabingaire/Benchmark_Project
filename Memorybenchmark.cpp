@@ -1,4 +1,4 @@
-include<iostream>
+#include<iostream>
 #include<cmath>
 #include<ctime>
 #include<fstream>
@@ -27,6 +27,13 @@ void Memory::read_memory(){
     for (i=0;i<5000000000;i++){
         temp=array1[i]
     }
+}
+
+int main{
+    time_t initial_time, final_time;
+    
+    return 0;
+    
 }
 
 
