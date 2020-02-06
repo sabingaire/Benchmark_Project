@@ -38,6 +38,10 @@ int main(){
     int_addition();
     int_multiplication();
     int_division();
+    final_time=time(NULL);
+    cout<<"The total time taken for the integer operation is ";
+    cout<<final_time - intial_time<<endl;
+    
     
     return 0;
 }
