@@ -22,3 +22,11 @@ void float_multiplication( float a =6.12 ,float b=3.23){
         i++;
     }
 }
+
+void float_division( float a=13.233, float b =4.55){
+    long long int i=0;
+    while(i<20000000000){
+        a/=b;
+        i++;
+    }
+}
