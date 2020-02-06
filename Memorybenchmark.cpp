@@ -4,3 +4,10 @@ include<iostream>
 #include<fstream>
 using namespace std;
 
+class Memory{
+private:
+    int32_t array1[5000000000];
+    
+
+
+
