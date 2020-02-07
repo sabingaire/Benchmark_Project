@@ -17,6 +17,18 @@ while(i<250000000){
 ifile.close();
 }
 
+void read_harddrive(){
+  char val;
+  ifstream ifile;
+  myfile.open("input.txt");
+    long long i=0;
+    while(i<250000000){
+  
+    myfile.read(&val,4);
+        i++;
+  }
+  myfile.close();
+}
     
     
     
