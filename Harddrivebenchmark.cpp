@@ -24,15 +24,20 @@ void read_harddrive(){
     long long i=0;
     while(i<250000000){
   
-    myfile.read(&val,4);
+   ifile.read(&val,4);
         i++;
   }
-  myfile.close();
+ ifile.close();
 }
 
 int main() {
 time_t init,final;
 init=time(NULL);
+    write_harddrive;
+    read_harddrive;
+final=time(NULL);
+cout<<final-init<<endl;
+
     return 0;
     
 }
