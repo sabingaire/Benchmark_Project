@@ -29,6 +29,14 @@ void read_harddrive(){
   }
   myfile.close();
 }
+
+int main() {
+time_t init,final;
+init=time(NULL);
+    return 0;
+    
+}
+
     
     
     
