@@ -6,7 +6,7 @@
 using namespace std;
 
 void write_harddrive(){
-char val ='6';
+char val ='2';
 ofstream ifile;
 ifile.open("input.txt");
     long long i=0;
@@ -36,7 +36,7 @@ init=time(NULL);
     write_harddrive();
     read_harddrive();
 final=time(NULL);
-    cout<<"The time for harddrive is "
+    cout<<"The time for harddrive is ";
 cout<<final-init<<endl;
 
 
